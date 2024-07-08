@@ -69,11 +69,11 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'Sayyed_kashifali') # owner usern
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/fsupportby')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+B8mvOC8mDMFhOWQ1')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/fsupportby') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'fsupportby') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
